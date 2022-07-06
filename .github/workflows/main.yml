@@ -15,9 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  adr-view-and-deploy:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -25,22 +23,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Install adr-viewer and create index.html
         run: |
           pip install adr-viewer
           mkdir public
           adr-viewer --output public/index.html
 
-      - name: GitHub Pages
-        # You may pin to the exact commit or the version.
-        # uses: crazy-max/ghaction-github-pages@eb08c35b9fab86751edfff4e55cd5cde35ff0e52
+      - name: Deploy github pages
         uses: crazy-max/ghaction-github-pages@v3.0.0
         with:
-          # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
           build_dir: public
           repo: jpandres/adrs
-          # Allow Jekyll to build your site
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
