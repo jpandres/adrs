@@ -4,7 +4,7 @@ Date: 2022-07-06
 
 ## Status
 
-Accepted
+Superceded by [5. Better help](0005-better-help.md)
 
 ## Context
 

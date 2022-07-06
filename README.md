@@ -6,4 +6,8 @@ to try out adr tools and generating a page
 
 `brew insstall adr-tools`
 
-## Create a couple of ADRs
+## Create ADRs
+
+`adr`
+
+
