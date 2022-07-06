@@ -42,3 +42,5 @@ jobs:
           repo: adrs
           # Allow Jekyll to build your site
           jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
