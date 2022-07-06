@@ -39,7 +39,7 @@ jobs:
         with:
           # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
           build_dir: public
-          repo: adrs
+          repo: jpandres/adrs
           # Allow Jekyll to build your site
           jekyll: false
         env:
