@@ -8,6 +8,8 @@ to try out adr tools and generating a page
 
 ## Create ADRs
 
-`adr`
+`adr new <title>`
+
+https://jpandres.github.io/adrs/
 
 
