@@ -4,7 +4,7 @@ Date: 2022-07-06
 
 ## Status
 
-Superseded by [3. Fork adr-tools](0003-fork-adr-tools.md)
+Accepted
 
 ## Context
 
