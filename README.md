@@ -1,4 +1,4 @@
-# adrs
+# ADRs
 
 <p>
   <a href="https://jpandres.github.io/adrs/">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-to try out adr tools and generating a page
+To try out ADR tools and generating a page to share with broader audience.
 
 
 ## Howto
