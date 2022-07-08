@@ -1,7 +1,7 @@
 # ADRs
 
 <p>
-  <a href="https://jpandres.github.io/adr-tools2/">
+  <a href="https://jpandres.github.io/adrs/">
     <img src="https://img.shields.io/badge/ADRs-6-ff69b4" alt="Number of Architectural Decision Records in this repo" />
   </a>
 </p>
