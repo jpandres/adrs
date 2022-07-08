@@ -8,12 +8,13 @@ Superseded by [3. Fork adr-tools](0003-fork-adr-tools.md)
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
-
+Although the idea of ADR and documenting them can be done manually, a tool to facilitate the process would be beneficial to get better adoption
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+Use the tool created by the author that came up with the idea of ADR [adr-tools](https://github.com/npryce/adr-tools)
+This is a simple set of bash scripts that you use locally to create ADRs with templates
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+- The tool have some bugs
+- The repo haven't been updated in years...it might never happen again.

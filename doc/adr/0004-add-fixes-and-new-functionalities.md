@@ -10,11 +10,12 @@ Related [3. Fork adr-tools](0003-fork-adr-tools.md)
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+bugs
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+Impact several of the open PRS in the orginal repo and add new functionalities that are useful at the moment.
+Add a github badge to count the ADRs in the repo.
 
 ## Consequences
 

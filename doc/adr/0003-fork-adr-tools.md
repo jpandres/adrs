@@ -12,12 +12,12 @@ Extended by [4. Add fixes and new functionalities](0004-add-fixes-and-new-functi
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+The tool have several bugs and there's no activity from the owner in the repo.
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+Fork it, adapt it to my needs and maintain it.
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+- Maintaining an open source project.

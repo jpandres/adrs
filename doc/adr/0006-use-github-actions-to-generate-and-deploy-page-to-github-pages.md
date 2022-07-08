@@ -8,12 +8,12 @@ Accepted
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+Need a place to publish the generated html with ADRs
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+Use github actions to generate the `index.html` in every commit and depploy it to github pages.
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+- maintain the github action CI

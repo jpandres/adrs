@@ -21,3 +21,7 @@ To try out ADR tools and generating a page to share with broader audience.
 ADRs sample from this project: https://jpandres.github.io/adrs/
 
 
+Interesting links:
+- https://jon.sprig.gs/blog/post/2101
+- ADRs templates: https://github.com/joelparkerhenderson/architecture-decision-record
+- orginal ADR blog post: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions

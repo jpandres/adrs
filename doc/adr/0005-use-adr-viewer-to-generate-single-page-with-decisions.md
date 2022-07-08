@@ -8,12 +8,12 @@ Accepted
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+Going thgough every markdown file with the ADRs is not very user friendly, specially for non-developers. Something else is needed 
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+After evaluating a couple of tools, https://github.com/mrwilson/adr-viewer is the choosen one given it's simplicity.
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+- Dependency with open source product that is not highly active.
